@@ -1,8 +1,4 @@
-# test_calcul.py
-
-def somme(a, b):
-    return a + b
-
+import calcul
 def test_somme():
-    assert somme(5, 3) == 8
+    assert calcul.somme(5, 3) == 8
     
